@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagenes/face-foundation.png" type="image/x-icon">
+</head>
+<body>
+    
+     <div style="display: flex; justify-content: center; gap: 10px;">
+        <a href="nosotros.html"> Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="index.html">Inicio</a>
+     </div>
+    <div align="center">
+        <h1 style="color: aquamarine;"> Contactos </h1>
+        <p>Contactanos, sera un placer atenderte </p>
+  
+        <img width="40%" src="imagenes/Contactenos.jpg" alt="Contactanos" style="width: 25%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1169867663175!2d-75.60396102576951!3d6.2483117263016394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429558e332271%3A0xf61dd8d2327444fe!2sDolcezza%20Boutique%20Laureles!5e0!3m2!1ses-419!2sco!4v1742952123668!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+     <div style=" text-align: center; margin-top: 20px; margin-bottom: 20px;">
+        <form>
+            <label>Escriba su nombre</label><br>
+            <input required name="NombreCliente" type="text"><br>
+            <label>Celular o Telefono</label><br> 
+            <input required name="Telefono" type="tel"> <br>
+            <label > Edad</label><br>
+            <input required name="edad" type="number" min="18" max="60"> <br>
+            <label>Escriba su correo</label><br>
+            <input required name="correo" type="email"> <br>
+            <label> Fecha de Nacimiento</label><br>
+            <input type="date" min="1950-01-01" max="2006-12-31"><br>
+            <label>Genero</label><br>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Femenino"> Femenino
+            <input type="radio" name="genero" value="No sabe"> No sabe
+            <input type="radio" name="genero" value="Otro"> Otro <br>
+            <select name="Contactos"><br>
+                <option value="Whatsapp">Whatsapp</option><br>
+                <option value="Otro"> Otro</option><br>
+            </select> <br>
+            <label>PRQS</label>
+            <textarea name="PRQS" ></textarea> <br>
+
+
+            <button type="submit"> Enviar datos</button><br>
+            <button type="reset">Borrar datos</button><br>
+        </form>
+     </div>
+</body>
+</html>
